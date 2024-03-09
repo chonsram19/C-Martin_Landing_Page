@@ -1,73 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>C-Martin Defense</title>
-      <link rel="stylesheet" href="style.css">
-      <script src="https://kit.fontawesome.com/289bbb6b3d.js" crossorigin="anonymous"></script>
-   </head>
-   <body>
-      <div class="hero">
-         <video   autoplay loop muted  plays-inline class="back-video">
-            <source src="lh.mp4">
-         </video>
-         <nav>
-            <img src=""  class="logo">
-            <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Careers</a></li>
-               <li><a href="#">History</a></li>
-               <li><a href="#">Research</a></li>
-            </ul>
-         </nav>
-         <div class="content1">
-            <h1>C-Martin Defense</h1>
-            <a href="">Explore More</a>
-         </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-Martin Defense</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/289bbb6b3d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="lh.mp4">
+      </video>
+      <nav>
+        <img src="" class="logo">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">History</a>
+          </li>
+          <li>
+            <a href="#">Research</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="content1">
+        <h1>
+          <span class="c">C</span>-Martin Defense
+        </h1>
+        <a href="">Explore More</a>
+        <div class="element"></div>
       </div>
+    </div>
+    <div class="second-page">
       <div class="top">
-         <h1>Top Research</h1>
+        <h1> Our Top Research</h1>
       </div>
       <section class="container">
-         <div class="slider-wrapper">
-            <div class="slider">
-               <img id="slide-1" src="iron.jpg" alt="3D rendering of an imaginary orange planet in space" />
-               <img id="slide-2" src="fr.jpg" />
-               <img id="slide-3" src="asol.jpg" />
-            </div>
-            <div class="slider-nav">
-               <a href="#slide-1"></a>
-               <a href="#slide-2"></a>
-               <a href="#slide-3"></a>
-            </div>
-         </div>
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img id="slide-1" src="asol.jpg" alt="3D rendering of an imaginary orange planet in space" />
+            <img id="slide-2" src="fr.jpg" />
+            <img id="slide-3" src="iron.jpg" />
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
       </section>
-      <div class="footer">
-         <div class="col-1">
-            <h3>USEFUL LINKS</h3>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Department of Defense</a>
-            <a href="#">Department of Justice</a>
-         </div>
-         <div class="col-2">
-            <h3>NEWSLETTER</h3>
-            <form action="">
-               <input type="text" placeholder="Your Email Address" required>
-               <br>
-               <button type="submit">SUBSCRIBE NOW</button>
-            </form>
-         </div>
-         <div class="col-3">
-            <h3>CONTACT</h3>
-            <p>Tura City <br> Meghalaya, IN</p>
-            <div class="social-icons">
-               <i class="fa-brands fa-facebook"></i>
-               <i class="fa-brands fa-twitter"></i>
-               <i class="fa-brands fa-instagram"></i>
-            </div>
-         </div>
+    </div>
+    <div class="footer">
+      <div class="col-1">
+        <a href="#">About US </a>
+        <a href="#">Services</a>
+        <a href="#">Conferences</a>
+        <a href="#">Secure Channels</a>
       </div>
-   </body>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form action="">
+          <input type="text" placeholder="Your Email Address" required>
+          <br>
+          <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>Tura City <br> Meghalaya, IN </p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/7.8.5/d3.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('.element', {
+            strings: [" <p> We creates technology that helps government agencies prevent and investigate terrorism. </p>", " <p> We cretes technology that helps government agencies prevent and investigate terrorism. </p>"],
+              loop: true,
+              typeSpeed: 50,
+              backSpeed: 80,
+              backDelay: 300
+            });
+    </script>
+    </script>
+  </body>
 </html>
